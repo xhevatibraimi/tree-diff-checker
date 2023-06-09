@@ -22,9 +22,8 @@ static void FileNavigatorDemo()
 }
 static void LazyDiffChecker()
 {
-    var leftPath = @"c:/files/test/project-one";
-    var rightPath = @"c:/files/test/project-two";
-
+    var leftPath = @"C:\src\test\one";
+    var rightPath = @"C:\src\test\two";
 
     var leafComparer = new FileSystemLeafComparer();
     var leafProvider = new FileSystemLeafProvider();
