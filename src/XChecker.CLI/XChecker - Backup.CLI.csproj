@@ -6,10 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XChecker.Abstractions\XChecker.Abstractions.csproj" />
     <ProjectReference Include="..\XChecker.Core\XChecker.Core.csproj" />
     <ProjectReference Include="..\XChecker.FileSystem\XChecker.FileSystem.csproj" />
-    <ProjectReference Include="..\XChecker.InMemory\XChecker.InMemory.csproj" />
   </ItemGroup>
 
 </Project>
