@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5BF60AF-841C-491D-9555-2A55A43DC031}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDifferenceChecker.CLI", "src\TreeDifferenceChecker.CLI\TreeDifferenceChecker.CLI.csproj", "{0CA38A8C-4D7F-4504-832B-BE651E8D5B89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDifferenceChecker.Abstractions", "src\TreeDifferenceChecker.Abstractions\TreeDifferenceChecker.Abstractions.csproj", "{AB12AB06-D698-41FD-ABC3-3B0BA82FC072}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDifferenceChecker.Core.Eager", "src\TreeDifferenceChecker.Core.Eager\TreeDifferenceChecker.Core.Eager.csproj", "{CD0B1CA1-50EF-4C3D-B661-E888F834A41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDifferenceChecker.Core.Lazy", "src\TreeDifferenceChecker.Core.Lazy\TreeDifferenceChecker.Core.Lazy.csproj", "{4A8CDB45-ADAB-4D9B-96CC-C4803C168337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDifferenceChecker.FileSystem", "src\TreeDifferenceChecker.FileSystem\TreeDifferenceChecker.FileSystem.csproj", "{88559967-F35C-4511-995D-DB8B70697E73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDifferenceChecker.InMemory", "src\TreeDifferenceChecker.InMemory\TreeDifferenceChecker.InMemory.csproj", "{8FF7B3DE-7A03-4DDB-8089-B4537DD6D07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CA38A8C-4D7F-4504-832B-BE651E8D5B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA38A8C-4D7F-4504-832B-BE651E8D5B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA38A8C-4D7F-4504-832B-BE651E8D5B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA38A8C-4D7F-4504-832B-BE651E8D5B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB12AB06-D698-41FD-ABC3-3B0BA82FC072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB12AB06-D698-41FD-ABC3-3B0BA82FC072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB12AB06-D698-41FD-ABC3-3B0BA82FC072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB12AB06-D698-41FD-ABC3-3B0BA82FC072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0B1CA1-50EF-4C3D-B661-E888F834A41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0B1CA1-50EF-4C3D-B661-E888F834A41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0B1CA1-50EF-4C3D-B661-E888F834A41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0B1CA1-50EF-4C3D-B661-E888F834A41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8CDB45-ADAB-4D9B-96CC-C4803C168337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8CDB45-ADAB-4D9B-96CC-C4803C168337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8CDB45-ADAB-4D9B-96CC-C4803C168337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8CDB45-ADAB-4D9B-96CC-C4803C168337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88559967-F35C-4511-995D-DB8B70697E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88559967-F35C-4511-995D-DB8B70697E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88559967-F35C-4511-995D-DB8B70697E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88559967-F35C-4511-995D-DB8B70697E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF7B3DE-7A03-4DDB-8089-B4537DD6D07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF7B3DE-7A03-4DDB-8089-B4537DD6D07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF7B3DE-7A03-4DDB-8089-B4537DD6D07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF7B3DE-7A03-4DDB-8089-B4537DD6D07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CA38A8C-4D7F-4504-832B-BE651E8D5B89} = {D5BF60AF-841C-491D-9555-2A55A43DC031}
+		{AB12AB06-D698-41FD-ABC3-3B0BA82FC072} = {D5BF60AF-841C-491D-9555-2A55A43DC031}
+		{CD0B1CA1-50EF-4C3D-B661-E888F834A41E} = {D5BF60AF-841C-491D-9555-2A55A43DC031}
+		{4A8CDB45-ADAB-4D9B-96CC-C4803C168337} = {D5BF60AF-841C-491D-9555-2A55A43DC031}
+		{88559967-F35C-4511-995D-DB8B70697E73} = {D5BF60AF-841C-491D-9555-2A55A43DC031}
+		{8FF7B3DE-7A03-4DDB-8089-B4537DD6D07A} = {D5BF60AF-841C-491D-9555-2A55A43DC031}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BEAF4AD-FDE4-4CD5-A7EE-FE2192C5CFFF}
+	EndGlobalSection
+EndGlobal

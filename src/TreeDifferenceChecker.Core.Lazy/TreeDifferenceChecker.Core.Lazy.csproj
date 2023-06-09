@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TreeDifferenceChecker.Abstractions\TreeDifferenceChecker.Abstractions.csproj" />
+		<ProjectReference Include="..\TreeDifferenceChecker.Core.Eager\TreeDifferenceChecker.Core.Eager.csproj" />
+	</ItemGroup>
+
+</Project>
